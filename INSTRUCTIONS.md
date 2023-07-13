@@ -1,4 +1,4 @@
-# Monkeytype Word Doc Guide:
+# Monkeytype Word Theme Guide:
 _______________________________________________________
 
 ## Font:
