@@ -1,19 +1,27 @@
-Monkeytype Word Doc Guide:
+# Monkeytype Word Theme Guide:
+_______________________________________________________
 
-
+## Font:
 Calibri Download: https://www.downloadfonts.io/downloads/calibri-font/
-(Download Calibri in order to have the font in Monkeytype)
+(Download Calibri in order to have the font in Monkeytype.)
 ———————————————————————————————————————————————————————
-Monkeytype import settings:
-(Go to monkeytype.com/settings, scroll down to danger zone, and click import, then copy paste the settings)
 
+## MonkeyType Settings. 
+(Go to https://monkeytype.com/settings, scroll down to "Danger Zone", and click "import". Then copy paste the settings below.)
+<details>
+ <summary>Settings to Import</summary>
 {"theme":"vscode","themeLight":"serika","themeDark":"serika_dark","autoSwitchTheme":false,"customTheme":true,"customThemeColors":["#ffffff","#000000","#e2b714","#1c1c1c","#2c2e31","#000000","#ca4754","#7e2a33","#ca4754","#7e2a33"],"favThemes":[],"showKeyTips":false,"showLiveWpm":false,"showTimerProgress":true,"smoothCaret":true,"quickRestart":"tab","punctuation":false,"numbers":false,"words":10,"time":15,"mode":"time","quoteLength":[3],"language":"english","fontSize":2,"freedomMode":false,"difficulty":"normal","blindMode":false,"quickEnd":false,"caretStyle":"default","paceCaretStyle":"underline","flipTestColors":false,"layout":"default","funbox":"none","confidenceMode":"off","indicateTypos":"below","timerStyle":"mini","colorfulMode":true,"randomTheme":"off","timerColor":"main","timerOpacity":"0.25","stopOnError":"off","showAllLines":false,"keymapMode":"off","keymapStyle":"staggered","keymapLegendStyle":"lowercase","keymapLayout":"colemak","keymapShowTopRow":"layout","fontFamily":"Calibri","smoothLineScroll":true,"alwaysShowDecimalPlaces":false,"alwaysShowWordsHistory":false,"singleListCommandLine":"manual","capsLockWarning":false,"playSoundOnError":false,"playSoundOnClick":"off","soundVolume":"1.0","startGraphsAtZero":true,"showOutOfFocusWarning":false,"paceCaret":"pb","paceCaretCustomSpeed":170,"repeatedPace":true,"pageWidth":"125","chartAccuracy":true,"chartStyle":"line","minWpm":"off","minWpmCustomSpeed":100,"highlightMode":"letter","alwaysShowCPM":false,"ads":"off","hideExtraLetters":false,"strictSpace":false,"minAcc":"off","minAccCustom":90,"showLiveAcc":false,"showLiveBurst":false,"monkey":false,"repeatQuotes":"off","oppositeShiftMode":"off","customBackground":"https://i.imgur.com/Nlr5onP.png","customBackgroundSize":"cover","customBackgroundFilter":[0,1,1,1],"customLayoutfluid":"qwerty#dvorak#colemak","monkeyPowerLevel":"off","minBurst":"off","minBurstCustomSpeed":100,"burstHeatmap":false,"britishEnglish":false,"lazyMode":false,"showAverage":"off","tapeMode":"off"}
-
+</details>
 ————————————————————————————————————————————————————————
- CSS code:
+
+## Removing Other Elements
+Stylus is required for the CSS code to modify the page. 
 (Install Stylus at 
-https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?utm_source=chrome-ntp-icon
-Visit Monkeytype and open Stylus, then click write style. Then copy paste the code, press save and enable it)
+https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne or https://addons.mozilla.org/en-US/firefox/addon/styl-us/) 
+
+Visit Monkeytype and open Stylus, then click write style. Then paste the code, press save and enable it.
+<details>
+ <summary>CSS Code</summary>
 
 #top .logo .text {
         visibility: hidden;
@@ -87,3 +95,4 @@ Visit Monkeytype and open Stylus, then click write style. Then copy paste the co
     #commandLine .suggestions:hover::-webkit-scrollbar {
         width: 7px;
     }
+</details>
