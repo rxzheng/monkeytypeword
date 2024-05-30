@@ -42,7 +42,8 @@ https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmn
 Visit Monkeytype and open Stylus, then click write style. Then paste the code, press save and enable it.
 
 Copy paste this into style writing page:
-```#top .logo .text {
+```
+#top .logo .text {
     visibility: hidden !important;
 }
 a#logo {
