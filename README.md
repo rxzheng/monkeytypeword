@@ -70,6 +70,9 @@ a.textButton.account.view-account{
 #top .logo .text .top {
     visibility: hidden; 
 }
+div.textButton {
+    visibility:hidden;
+}
 
 #top .logo .icon{
     visibility: hidden !important;
