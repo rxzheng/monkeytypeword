@@ -11,6 +11,9 @@ a#startTestButton.textButton.view-start{
 div.icon{
     visibility:hidden !important;
 }
+div.notificationBubble{
+    visibility:hidden !important;
+}
 div.text{
     visibility:hidden !important;
 }

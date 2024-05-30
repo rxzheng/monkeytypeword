@@ -31,7 +31,6 @@ https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmn
 Visit Monkeytype and open Stylus, then click write style. Then paste the code, press save and enable it.
 <details>
  <summary>CSS</summary>
-
 #top .logo .text {
     visibility: hidden !important;
 }
@@ -43,6 +42,9 @@ a#startTestButton.textButton.view-start{
     visibility:hidden !important;
 }
 div.icon{
+    visibility:hidden !important;
+}
+div.notificationBubble{
     visibility:hidden !important;
 }
 div.text{
