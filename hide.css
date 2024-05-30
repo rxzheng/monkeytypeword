@@ -1,13 +1,46 @@
 #top .logo .text {
-    visibility: hidden;
+    visibility: hidden !important;
 }
-
+a#logo {
+    display: none !important;
+    visibility: hidden !important;
+}
+a#startTestButton.textButton.view-start{
+    visibility:hidden !important;
+}
+div.icon{
+    visibility:hidden !important;
+}
+div.text{
+    visibility:hidden !important;
+}
+button#contactPopupButton.textButton{
+    visibility:hidden !important;
+}
+button#supportMeButton.textButton{
+    visibility:hidden !important;
+}
+button#contactPopupButton.textButton{
+    visibility:hidden !important;
+}
+a.textButton{
+    visibility:hidden !important;
+}
+button.current-theme.textButton{
+    visibility:hidden !important;
+}
+button.currentVersion.textButton{
+    visibility:hidden !important;
+}
+a.textButton.account.view-account{
+    visibility:hidden !important;
+}
 #top .logo .text .top {
-    visibility: hidden;
+    visibility: hidden; 
 }
 
-#top .logo {
-    visibility: hidden;
+#top .logo .icon{
+    visibility: hidden !important;
 }
 #top .logo .bottom {
     visibility: hidden;
@@ -35,7 +68,7 @@ visibility: hidden;
 }
 #typingTest {
 
-    transform: translateY(-100px);
+    transform: translateY(-140px);
     margin-left: 10%;
     margin-right: 10%;
 }
