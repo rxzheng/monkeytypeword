@@ -23,7 +23,7 @@ Then, you can to monkeytype.com, press escape (Command Line) => Font Family => c
 
 ## MonkeyType Settings. 
 (Go to https://monkeytype.com/settings, scroll down to "Danger Zone", and click "import". Then copy paste the settings below.)
-<details>
+
  
  **Settings to Import**
 
