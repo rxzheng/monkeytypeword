@@ -4,6 +4,8 @@ Microsoft Word Document Theme on Monkeytype
 This is a MonkeyType Microsoft Word Document Theme. 
 It includes optional settings, and importantly, css code to remove undesired elements. 
 
+![Image](./showcase.png)
+
 # Monkeytype Word Theme Guide:
 _______________________________________________________
 
