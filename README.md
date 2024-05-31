@@ -43,116 +43,78 @@ Visit Monkeytype and open Stylus, then click write style. Then paste the code, p
 
 Copy paste this into style writing page:
 ```css
-#top .logo .text {
+/* Hiding various elements */
+.hidden {
     visibility: hidden !important;
-}
-a#logo {
-    display: none !important;
-    visibility: hidden !important;
-}
-a#startTestButton.textButton.view-start{
-    visibility:hidden !important;
-}
-div.icon{
-    visibility:hidden !important;
-}
-div.notificationBubble{
-    visibility:hidden !important;
-}
-div.text{
-    visibility:hidden !important;
-}
-button#contactPopupButton.textButton{
-    visibility:hidden !important;
-}
-button#supportMeButton.textButton{
-    visibility:hidden !important;
-}
-button#contactPopupButton.textButton{
-    visibility:hidden !important;
-}
-a.textButton{
-    visibility:hidden !important;
-}
-button.current-theme.textButton{
-    visibility:hidden !important;
-}
-button.currentVersion.textButton{
-    visibility:hidden !important;
-}
-a.textButton.account.view-account{
-    visibility:hidden !important;
-}
-#top .logo .text .top {
-    visibility: hidden; 
-}
-div.textButton {
-    visibility:hidden;
 }
 
-#top .logo .icon{
-    visibility: hidden !important;
-}
-#top .logo .bottom {
-    visibility: hidden;
-}
-
+#top .logo .text,
+a#logo,
+a#startTestButton.textButton.view-start,
+div.icon,
+div.notificationBubble,
+div.text,
+div.textButton,
+button#contactPopupButton.textButton,
+button#supportMeButton.textButton,
+a.textButton,
+button.current-theme.textButton,
+button.currentVersion.textButton,
+a.textButton.account.view-account,
+#top,
+#menu,
+#testConfig,
 #bottom {
-visibility: hidden;
+    visibility: hidden !important;
 }
 
-#top .icon {
-visibility: hidden;
-}
-#top .account {
-visibility: hidden;
-}
-#top .notifications {
-visibility: hidden;
-}
 #menu {
-visibility: hidden;
-display: none;
-}   
-#testConfig {
-visibility: hidden;
+    display: none;
 }
+
+/* Typing test adjustments */
 #typingTest {
-
     transform: translateY(-140px);
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0 10%;
 }
 
+/* Command line styles */
 #commandLine {
     background: none !important;
 }
+
 #commandLineWrapper {
     background: none;
     backdrop-filter: blur(5px) brightness(0.5);
     transition: 0.5s ease;
 }
+
 #commandLine input {
     background: none !important;
 }
+
 #commandLine > div:first-child {
     border-radius: 0;
     border-bottom: 1px solid var(--sub-color) !important;
 }
 
-/* command line scrollbar */
+/* Command line scrollbar */
 #commandLine .suggestions {
     scrollbar-width: none !important;
-    scrollbar-color: rgba(255, 255, 255, .1) transparent !important;
+    scrollbar-color: rgba(255, 255, 255, 0.1) transparent !important;
 }
+
 #commandLine .suggestions:hover {
     scrollbar-width: thin !important;
 }
+
 #commandLine .suggestions::-webkit-scrollbar {
-    width: 0px;
+    width: 0;
 }
+
 #commandLine .suggestions:hover::-webkit-scrollbar {
     width: 7px;
 }
+
 ```
 Click save. It should work now! Please create an issue if there is a problem.
