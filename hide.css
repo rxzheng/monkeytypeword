@@ -15,7 +15,6 @@ button#supportMeButton.textButton,
 a.textButton,
 button.current-theme.textButton,
 button.currentVersion.textButton,
-a.textButton.account.view-account,
 #top,
 #menu,
 #testConfig,
@@ -32,7 +31,15 @@ a.textButton.account.view-account,
     transform: translateY(-140px);
     margin: 0 10%;
 }
-
+/* Trying to move account button but can't
+a.textButton.account.view-account,
+div.icon,
+i.far.fa-fw.fa-user {
+    transform: translateX(200px);
+    transform: translateY(-30px);
+    
+}
+?*
 /* Command line styles */
 #commandLine {
     background: none !important;
